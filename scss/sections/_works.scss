@@ -1,0 +1,26 @@
+.works {
+   padding: 120px 0 100px;
+   background: #000000;
+   border-radius: 0px;
+
+   &__title {
+      font-size: 40px;
+      line-height: 42px;
+      color: $titleColor;
+      text-align: center;
+
+      &+* {
+         margin-top: 15px;
+      }
+   }
+
+   &__subtitle {
+      font-size: 23px;
+      line-height: 30px;
+      text-align: center;
+   }
+
+   &__presentation{
+      margin-top: 40px;
+   }
+}

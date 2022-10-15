@@ -1,0 +1,74 @@
+.presentation {
+   display: grid;
+   grid-template-columns: repeat(2, 2fr);
+   gap: 16px;
+   justify-items: stretch;
+
+   &__card {
+      padding: 420px 30px 30px;
+      max-width: 576px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      &:nth-child(1) {
+         background-image: url("../../img/main/works/iphone.jpg");
+         @include bg;
+
+      }
+
+      &:nth-child(2) {
+         background-image: url("../../img/main/works/house.jpg");
+         @include bg;
+
+      }
+
+      &:nth-child(3) {
+         background-image: url("../../img/main/works/trees.jpg");
+         @include bg;
+
+      }
+
+      &:nth-child(4) {
+         background-image: url("../../img/main/works/bamby.jpg");
+         @include bg;
+
+      }
+   }
+
+   &__title+* {
+      margin-top: 10px;
+   }
+
+   &__text+* {
+      margin-top: 17px;
+   }
+
+   &__link {
+      display: block;
+   }
+}
+
+@media (min-width:320px) {
+   .presentation {
+      grid-template-columns: repeat(auto-fill, 290px);
+   }
+}
+
+@media (min-width:375px) {
+   .presentation {
+      grid-template-columns: repeat(auto-fill, 345px);
+   }
+}
+
+@media (min-width:425px) {
+   .presentation {
+      grid-template-columns: repeat(auto-fill, 395px);
+   }
+}
+
+@media (min-width:768px) {
+   .presentation {
+      grid-template-columns: repeat(2, 2fr);
+   }
+}

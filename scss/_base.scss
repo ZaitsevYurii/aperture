@@ -1,0 +1,27 @@
+body {
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: $baseColor;
+}
+
+.wrapper {
+   max-width: 1198px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+}
+
+.header-wrapper {
+   max-width: 1178px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.none {
+   display: none;
+}

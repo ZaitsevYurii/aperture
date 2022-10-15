@@ -1,0 +1,21 @@
+.btn {
+   max-width: 143px;
+   padding: 10px 10px 10px 45px;
+   background: #FFFFFF;
+   border-radius: 14px;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: 0.4px;
+   color: #000000;
+   position: relative;
+}
+
+.btn::before {
+   content: url("../../img/btn/btn-black.svg");
+   width: 32px;
+   height: 32px;
+   position: absolute;
+   top: 50%;
+   left: 4px;
+   transform: translateY(-50%);
+}

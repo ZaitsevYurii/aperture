@@ -1,0 +1,38 @@
+.nav {
+
+   &__menu {
+      display: flex;
+   }
+
+   &__item+* {
+      margin-left: 32px;
+   }
+
+   &__link {
+      padding: 9px 20px 13px;
+      font-size: 15px;
+      line-height: 20px;
+      color: #FFFFFF;
+      border-radius: 14px;
+      transition: all .4s ease-in-out;
+
+      &:hover {
+         padding: 9px 20px 13px;
+         background: #FFFFFF;
+         border-radius: 14px;
+         color: #000000;
+      }
+   }
+}
+
+@media (max-width:999px) {
+   .nav__item+* {
+      margin-left: 5px;
+   }
+}
+
+@media (max-width:896px) {
+   .nav__menu {
+      display: none;
+   }
+}

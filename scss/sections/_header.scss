@@ -1,0 +1,9 @@
+.header {
+   padding: 24px 0;
+   background: #181818;
+   border-radius: 0px;
+
+   &__inner {
+      @include flex-between;
+   }
+}

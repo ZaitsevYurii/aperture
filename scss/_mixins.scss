@@ -1,0 +1,17 @@
+@mixin bg {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+@mixin flex-center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@mixin flex-between {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}

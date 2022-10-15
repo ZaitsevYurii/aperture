@@ -1,0 +1,15 @@
+.example {
+   padding: 260px 0;
+   background-image: url("../../img/main/example/sea.jpg");
+   @include bg;
+   position: relative;
+
+   &__inner {
+      display: flex;
+      justify-content: flex-end;
+   }
+
+   &__content {
+      max-width: 298px;
+   }
+}

@@ -1,0 +1,29 @@
+.get-in {
+   padding: 113px 0 100px;
+   background-color: black;
+
+   &__inner {
+      text-align: center;
+   }
+
+   &__title {
+      max-width: 571px;
+      margin: 0 auto;
+      font-size: 40px;
+      line-height: 42px;
+      color: $titleColor;
+      text-align: center;
+
+      &+* {
+         margin-top: 15px;
+      }
+   }
+
+   &__subtitle {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 22px;
+   }
+
+}
