@@ -12,25 +12,25 @@
       justify-content: flex-end;
 
       &:nth-child(1) {
-         background-image: url("../../img/main/works/iphone.jpg");
+         background-image: url("../img/main/works/iphone.jpg");
          @include bg;
 
       }
 
       &:nth-child(2) {
-         background-image: url("../../img/main/works/house.jpg");
+         background-image: url("../img/main/works/house.jpg");
          @include bg;
 
       }
 
       &:nth-child(3) {
-         background-image: url("../../img/main/works/trees.jpg");
+         background-image: url("../img/main/works/trees.jpg");
          @include bg;
 
       }
 
       &:nth-child(4) {
-         background-image: url("../../img/main/works/bamby.jpg");
+         background-image: url("../img/main/works/bamby.jpg");
          @include bg;
 
       }

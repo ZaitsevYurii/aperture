@@ -465,7 +465,7 @@ body {
   padding: 440px 0 40px;
   background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url(.jpg);
   border-radius: 0px;
-  background-image: url("../../img/main/about/about.bg.jpg");
+  background-image: url("../img/main/about/about.bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -509,25 +509,25 @@ body {
   margin-left: 16px;
 }
 .characteristics__item:nth-child(1):before {
-  content: url("../../img/main/about/clock.svg");
+  content: url("../img/main/about/clock.svg");
   position: absolute;
   top: 3px;
   left: 0;
 }
 .characteristics__item:nth-child(2):before {
-  content: url("../../img/main/about/diafragma.svg");
+  content: url("../img/main/about/diafragma.svg");
   position: absolute;
   top: 3px;
   left: 0;
 }
 .characteristics__item:nth-child(3):before {
-  content: url("../../img/main/about/iso.svg");
+  content: url("../img/main/about/iso.svg");
   position: absolute;
   top: 3px;
   left: -20px;
 }
 .characteristics__item:nth-child(4):before {
-  content: url("../../img/main/about/location.svg");
+  content: url("../img/main/about/location.svg");
   position: absolute;
   top: 3px;
   left: 0;
@@ -594,25 +594,25 @@ body {
   justify-content: flex-end;
 }
 .presentation__card:nth-child(1) {
-  background-image: url("../../img/main/works/iphone.jpg");
+  background-image: url("../img/main/works/iphone.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .presentation__card:nth-child(2) {
-  background-image: url("../../img/main/works/house.jpg");
+  background-image: url("../img/main/works/house.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .presentation__card:nth-child(3) {
-  background-image: url("../../img/main/works/trees.jpg");
+  background-image: url("../img/main/works/trees.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .presentation__card:nth-child(4) {
-  background-image: url("../../img/main/works/bamby.jpg");
+  background-image: url("../img/main/works/bamby.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -660,7 +660,7 @@ body {
 }
 
 .btn::before {
-  content: url("../../img/btn/btn-black.svg");
+  content: url("../img/btn/btn-black.svg");
   width: 32px;
   height: 32px;
   position: absolute;
@@ -671,7 +671,7 @@ body {
 
 .example {
   padding: 260px 0;
-  background-image: url("../../img/main/example/sea.jpg");
+  background-image: url("../img/main/example/sea.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -733,7 +733,7 @@ body {
 }
 .second-example {
   padding: 260px 0;
-  background-image: url("../../img/main/second-example/trees.jpg");
+  background-image: url("../img/main/second-example/trees.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -773,7 +773,7 @@ body {
 }
 .third-example {
   padding: 260px 0;
-  background-image: url("../../img/main/third-example/IMAGE (5).jpg");
+  background-image: url("../img/main/third-example/IMAGE (5).jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
